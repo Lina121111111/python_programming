@@ -1,0 +1,10 @@
+num = [1, 2, 3, 4, 5, 6, 6121, 458998, 65786, 4546]
+sort_num = max(filter(lambda x: x%2 == 0, num))
+print(sort_num)
+
+num = [1, 2, 3, 4, 5, 6, 6121, 458998, 65786, 4546]
+sort_num = min(filter(lambda x: x%2 == 0, num))
+print(sort_num)
+
+num = [1, 2, 3, 4, 5, 6, 6121, 458998, 65786, 4546]
+print(num)
